@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Hello.css'
 
-const Hello = (props) => {
+const Hello = props => {
     return (
       <div className="f1 tc">
         <h1> { props.greeting } </h1>
